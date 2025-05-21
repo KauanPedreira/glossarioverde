@@ -35,7 +35,7 @@ const termos = [
     descricao: "(Araucaria angustifólia) - Árvore símbolo do estado do Paraná. Tem saborosos pinhões e servem de alimento para aves e diversos animais. Sugestão para o reflorestamento de toda a região sul.",
     fonte: "https://pixabay.com/pt/photos/arauc%c3%a1ria-pinheiro-paisagem-5892839/",
     imagem: "imgs/araucaria.jpg",
-    video: "videos/araucária.mp4"
+    video: "videos/araucaria.mp4"
   },
   {
     id: "04",
@@ -43,7 +43,7 @@ const termos = [
     descricao: "Plantação de árvores que pertence à cidade. Ajudam a controlar o calor do sol, absorvem ruídos, renovam o oxigênio do ar e contribuem para reduzir o efeito das enchentes, além de atrair pássaros.",
     fonte: "https://pixabay.com/pt/photos/paris-frança-arvores-outono-cair-90935/",
     imagem: "imgs/arborizacao.jpg",
-    video: "video/arborizacao.mp4"
+    video: "videos/arborizacao.mp4"
 
   },
   {
