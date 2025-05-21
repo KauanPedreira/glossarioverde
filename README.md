@@ -34,3 +34,19 @@ Este glossário traz definições claras e confiáveis, baseadas em fontes renom
 
 ## Estrutura do Projeto
 
+GlossárioVerde/
+├── index.html # Página principal do glossário
+├── styles.css # Estilos visuais do site
+├── script.js # Scripts para interatividade e acessibilidade
+├── imgs/ # Imagens e logos institucionais
+└── README.md # Documentação do projeto
+
+
+---
+
+## Como Usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/GlossarioVerde.git
+
