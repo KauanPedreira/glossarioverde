@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Glossário LIBRAS – Arborização Urbana</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logos" aria-label="Logotipos institucionais">
+      <img src="imgs/logoprojeto.png" alt="Logo da Faculdade" class="logo" />
+      <img src="imgs/logouem.png" alt="Logo da UEM" class="logo" />
+    </div>
+    <div class="header-text">
+      <h1>Glossário LIBRAS – Arborização Urbana – Goioerê-PR</h1>
+      <p>Dicionário digital com tradução em LIBRAS de termos arbóreos urbanos.</p>
+      <p>Desenvolvido por Sherley José Donaris Colombani Macedo</p>
+      <p>Orientador: Prof. Dr. Felipe Fontana</p>
+
+      <div class="botoes-header">
+        <button class="btn-nota" onclick="scrollToNota()"> Sobre o Glossário</button>
+        <button class="btn-toggle-tema" onclick="alternarTema()"> Modo Noturno</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <!-- Seção da Nota Técnica -->
+    <section id="nota-tecnica" class="nota-tecnica" aria-labelledby="nota-titulo">
+      <h2 id="nota-titulo">Nota Técnica</h2>
+      <p>
+        Este glossário digital visa promover a acessibilidade linguística ao disponibilizar terminologias ambientais traduzidas para a Língua Brasileira de Sinais (LIBRAS).
+      </p>
+      <p>
+        O conteúdo foi sistematizado a partir de fontes confiáveis como 
+        <a href="https://www.jardineiro.net" target="_blank" rel="noopener noreferrer">Jardineiro.net</a> e 
+        <a href="https://www.dicio.com.br" target="_blank" rel="noopener noreferrer">Dicio.com.br</a>, proporcionando definições claras sobre arborização urbana.
+      </p>
+      <p>
+        O objetivo é contribuir com a inclusão de pessoas surdas na temática ambiental urbana, incentivando a educação ambiental por meio da tecnologia.
+      </p>
+      <p><strong>Projeto de Mestrado | Universidade Estadual de Maringá – Campus Goioerê</strong></p>
+    </section>
+
+    <!-- Seção dinâmica dos cards (populada via JavaScript) -->
+    <section id="cards-container" class="cards" aria-label="Glossário de termos"></section>
+
+    <!-- Modal de vídeo/descrição -->
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc">
+      <div class="modal-content" id="modal-content">
+        <button class="close" id="modal-close" aria-label="Fechar modal">&times;</button>
+        <!-- Conteúdo será inserido via JavaScript -->
+      </div>
+    </div>
+
+    <!-- Referências e Créditos -->
+    <section id="creditos-referencias" class="creditos-referencias" aria-labelledby="referencias-titulo">
+      <h2 id="referencias-titulo">Referências</h2>
+      <ul>
+        <li><strong>Dicionário Virtual em LIBRAS</strong>. Disponível em: <a href="https://dicionario-de-libras---arborizacao-urbana.webnode.page/" target="_blank">webnode.page</a>. Acesso em: 26 set. 2022.</li>
+        <li><strong>DICIO.COM</strong>. <a href="https://www.dicio.com.br/" target="_blank">dicio.com.br</a>. Acesso em: 20 jul. 2022.</li>
+        <li><strong>Pixabay</strong>. <a href="https://pixabay.com/pt/" target="_blank">pixabay.com/pt</a>. Acesso em: 20 jul. 2022.</li>
+        <li><strong>Freepik</strong>. <a href="https://br.freepik.com/" target="_blank">freepik.com</a>. Acesso em: 20 jul. 2022.</li>
+        <li><strong>IBFlorestas</strong>. <a href="https://www.ibflorestas.org.br/lista-de-especies-nativas" target="_blank">ibflorestas.org.br</a>. Acesso: 21 ago. 2022.</li>
+        <li><strong>IBGE</strong>. <a href="https://educa.ibge.gov.br/jovens/conheca-o-brasil/territorio/18307-biomas-brasileiros.html" target="_blank">educa.ibge.gov.br</a>. Acesso em: 22 ago. 2022.</li>
+        <li><strong>Mundo Educação</strong>. <a href="https://mundoeducacao.uol.com.br/geografia/mata-ciliar.htm" target="_blank">mundoeducacao.uol.com.br</a>. Acesso em: 24 ago. 2022.</li>
+        <li><strong>Jardineiro.net</strong>. <a href="https://www.jardineiro.net/plantas-de-a-a-z" target="_blank">jardineiro.net</a>. Acesso em: 20 jul. 2022.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p>&copy; 2025 – Projeto de Mestrado | Goioerê - PR</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
