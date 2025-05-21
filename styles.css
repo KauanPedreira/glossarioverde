@@ -402,8 +402,14 @@ video {
 /* Celulares */
 @media (max-width: 480px) {
   .cards {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .card {
+    max-width: none; /* para o card ocupar a coluna inteira */
+    width: 100%;
+    margin: 0; /* para tirar a margem extra que pode atrapalhar */
   }
 
   .logo {
@@ -419,6 +425,7 @@ video {
     font-size: 1rem;
   }
 }
+
 
 @keyframes fadeInUp {
   0% {
